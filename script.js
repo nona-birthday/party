@@ -296,7 +296,7 @@ function doStuff() {
       TxtRotate.prototype.tick = function() {
         var happy15 = document.getElementById("happy_text15");
         var happy16 = document.getElementById("happy_text16");
-        if(this.loopNum < 3) {
+        if(this.loopNum < 4) {
             
             happy[i].style.display = "flex";
         }
@@ -384,7 +384,7 @@ function doStuff() {
   if(i == 5) {
     t += 100;
     }
-  t += 1000; //time photo
+  t += 4000; //time photo
 
   setTimeout(function() {
       if(i == 7) {
