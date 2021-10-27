@@ -367,13 +367,14 @@ body, html {
 }
 
 .happy_text14 {
-    height: 98vh;
+    height: 97vh;
     width: 100%;
     padding: 10px;
     position: absolute;
     display: none;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .happy_text15 {
